@@ -9,6 +9,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'sgur/vim-editorconfig'
 Plugin 'sonph/onehalf', {'rtp': 'vim/'}
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
