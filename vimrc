@@ -65,6 +65,9 @@ set autoindent
 " Show line numbers
 set number
 
+" Show character limit
+set colorcolumn=80
+
 " Turn off backup files
 set nobackup
 set noswapfile
