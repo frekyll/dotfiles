@@ -9,3 +9,4 @@
 	pf = push --force
 	rb = rebase
 	rbc = rebase --continue
+	s = status
