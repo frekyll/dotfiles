@@ -3,6 +3,7 @@
 	name = Josh Wenning
 
 [alias]
+	aa = add .
 	co = checkout
 	d = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat --color-words"
 	l = log --graph --decorate --pretty=oneline --abbrev-commit -5
