@@ -6,10 +6,10 @@ export EDITOR='$VISUAL'
 export VISUAL=vim
 
 # Edit
-alias b='vim ~/.bashrc'
+alias bash='vim ~/.bashrc'
 
-# Reload 
-alias src='source ~/.bashrc'
+# Reload
+alias source='source ~/.bashrc'
 
 # View hidden files
 alias hide='defaults write com.apple.Finder AppleShowAllFiles false && killall Finder'
