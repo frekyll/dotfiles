@@ -11,6 +11,9 @@ alias rc='vim ~/.bashrc'
 # Reload
 alias src='source ~/.bashrc'
 
+# Git
+alias g='git'
+
 # Output one filename per line
 alias ls='ls -1a'
 
