@@ -78,3 +78,7 @@ set colorcolumn=80
 set nobackup
 set noswapfile
 set nowritebackup
+
+" Make CtrlP use ag for listing the files
+let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor -g ""'
+let g:ctrlp_use_caching = 0
