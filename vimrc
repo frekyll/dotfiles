@@ -30,6 +30,9 @@ nmap <leader>src :source $MYVIMRC<cr>
 " Set utf8 as standard encoding
 set encoding=utf8
 
+" Go to start of word
+nmap 0 ^
+
 " Allow backspace in insert mode
 set backspace=indent,eol,start
 
