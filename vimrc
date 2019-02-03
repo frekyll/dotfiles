@@ -46,6 +46,9 @@ set ignorecase
 " Don't wrap lines
 set nowrap
 
+" Keep at least 4 lines below cursor
+set scrolloff=4
+
 " Enable true colors
 if exists('+termguicolors')
 	let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
