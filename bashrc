@@ -6,10 +6,10 @@ export EDITOR='$VISUAL'
 export VISUAL=vim
 
 # Edit
-alias bash='vim ~/.bashrc'
+alias rc='vim ~/.bashrc'
 
 # Reload
-alias source='source ~/.bashrc'
+alias src='source ~/.bashrc'
 
 # Output one filename per line
 alias ls='ls -1a'
