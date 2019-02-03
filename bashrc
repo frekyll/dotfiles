@@ -1,5 +1,8 @@
+source ~/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+
 # Customize prompt
-export PS1='\w $ '
+export PS1='\w$(__git_ps1 " (%s)") '
 
 # Set Vim as default editor
 export EDITOR='$VISUAL'

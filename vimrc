@@ -60,7 +60,7 @@ if exists('+termguicolors')
 endif
 
 " Enable syntax highlighting
-colorscheme onehalfdark
+colorscheme onehalflight
 set cursorline
 set t_Co=256
 syntax on
