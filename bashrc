@@ -19,6 +19,9 @@ alias g='git'
 # Output one filename per line
 alias ls='ls -1a'
 
+# Clear screen
+alias c='clear'
+
 # Clear bash history
 alias clear-history='history -c && history -w'
 
