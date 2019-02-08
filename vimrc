@@ -19,8 +19,10 @@ Plugin 'tpope/vim-surround'
 call vundle#end()
 filetype plugin indent on
 
-" Make CtrlP use ag for listing the files
+" Use ag in CtrlP for listing files
 let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor -g ""'
+
+" ag is fast enough that CtrlP doesn't need to cache
 let g:ctrlp_use_caching = 0
 
 " Set utf8 as standard encoding
