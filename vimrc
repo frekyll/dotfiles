@@ -10,7 +10,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'sgur/vim-editorconfig'
-Plugin 'sonph/onehalf', {'rtp': 'vim/'}
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 
@@ -52,19 +51,6 @@ set nowrap
 " Keep at least 4 lines below cursor
 set scrolloff=4
 
-" Enable true colors
-if exists('+termguicolors')
-	let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-	let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-	set termguicolors
-endif
-
-" Enable syntax highlighting
-colorscheme onehalflight
-set cursorline
-set t_Co=256
-syntax on
-
 " Auto indent
 set autoindent
 
@@ -72,12 +58,10 @@ set autoindent
 set number
 
 " Show character limit
-set colorcolumn=80
+" set colorcolumn=80
 
 " Turn off backup files
 set nobackup
-set noswapfile
-set nowritebackup
 
 " Make CtrlP use ag for listing the files
 let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor -g ""'
