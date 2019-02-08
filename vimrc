@@ -70,3 +70,5 @@ set number
 
 " Turn off backup files
 set nobackup
+set noswapfile
+set nowritebackup
