@@ -1,17 +1,17 @@
 # Dock
 #
-# Set the default Dock size:
+# Set the default Dock size
 defaults write com.apple.dock tilesize -int 48
-# System Preferences > Mission Control > Automatically rearrange Spaces based on most recent use
+# Dissable automatically rearranging Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 # Don't show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
-# System Preferences > Dock > Minimize windows using: Scale effect
+# Minimize windows using the Scale effect
 defaults write com.apple.dock mineffect -string "scale"
 
 # Trackpad
 #
-# System Preferences > Trackpad > Tap to click
+# Enable tapping the trackpad to click
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 
 # Finder
@@ -27,8 +27,6 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 # System Preferences
 #
-# Enable tap to click for trackpad
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 # Disable Dashboard
 defaults write com.apple.dashboard mcx-disabled -bool true
 # Show battery percentage in menu bar
