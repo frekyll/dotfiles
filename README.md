@@ -6,21 +6,22 @@
 1. Clone the Repo Inside `~/Documents/Projects/`
 
 ```
-https://github.com/frekyll/dotfiles.git
+git clone https://github.com/frekyll/dotfiles.git
 ```
 
 2. Setup macOS
 
 ```
-source ~/Documents/Projects/dotfiles/setup-osx.sh
+source setup-osx.sh
 ```
+
+3. Enable Bash Git Prompt Support
+- Download [`git-prompt.sh`](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh) and copy it into the home directory
 
 3. Setup Symlinks
-  1. Enable Git prompt support by downloading [`git-prompt.sh`](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh)
-  2. Copy it into the home directory
 
 ```
-source ~/Documents/Projects/dotfiles/setup-symlinks.sh
+source setup-symlinks.sh
 ```
 
 ## Setup Ruby
