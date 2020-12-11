@@ -12,11 +12,14 @@ git clone https://github.com/frekyll/dotfiles.git
 2. Setup macOS
 
 ```
-source setup-osx.sh
+source setup-macos.sh
 ```
 
 3. Enable Bash Git Prompt Support
-- Download [`git-prompt.sh`](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh) and copy it into the home directory
+
+```
+curl -o ~/git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+```
 
 4. Setup Symlinks
 
