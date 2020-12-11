@@ -24,6 +24,3 @@ alias c='clear'
 
 # Clear bash history
 alias clear-history='history -c && history -w'
-
-# Start server
-alias sync='browser-sync start --server --files "./"'	
