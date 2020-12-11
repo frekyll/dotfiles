@@ -16,14 +16,12 @@ source ~/Documents/Projects/dotfiles/setup-osx.sh
 ```
 
 3. Setup Symlinks
+  1. Enable Git prompt support by downloading [`git-prompt.sh`](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh)
+  2. Copy it into the home directory
 
 ```
 source ~/Documents/Projects/dotfiles/setup-symlinks.sh
 ```
-
-## Enable Bash Git Prompt Support
-1. Download [`git-prompt.sh`](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh)
-2. Copy it into the home directory
 
 ## Setup Ruby
 1. Install [Homebrew](https://brew.sh)
