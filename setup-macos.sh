@@ -1,7 +1,7 @@
 # Dock
 #
-# System Preferences > Dock > Size:
-defaults write com.apple.dock tilesize -int 36
+# Set the default Dock size:
+defaults write com.apple.dock tilesize -int 48
 # System Preferences > Mission Control > Automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 # Don't show recent applications in Dock
