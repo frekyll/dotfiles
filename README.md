@@ -30,7 +30,7 @@ source setup-symlinks.sh
 ## Setup Ruby
 1. Install [Homebrew](https://brew.sh)
 2. Install rbenv via Homebrew: `brew install rbenv`
-3. Download a version of Ruby via rbenv (e.g., `rbenv install 2.7.2`) See [Install Ruby On Rails on macOS 10.14 Mojave](https://gorails.com/setup/osx/10.14-mojave) for more details.
+3. Download a version of Ruby via rbenv (e.g., `rbenv install 2.7.2`). See [Install Ruby On Rails on macOS 10.14 Mojave](https://gorails.com/setup/osx/10.14-mojave) for more details.
 
 ## Install Additional Dependencies
 - Install node via Homebrew: `brew install node`
