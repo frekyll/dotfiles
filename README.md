@@ -18,7 +18,7 @@ source setup-osx.sh
 3. Enable Bash Git Prompt Support
 - Download [`git-prompt.sh`](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh) and copy it into the home directory
 
-3. Setup Symlinks
+4. Setup Symlinks
 
 ```
 source setup-symlinks.sh
