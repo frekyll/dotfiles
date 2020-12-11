@@ -22,5 +22,5 @@ alias ls='ls -1a'
 # Clear screen
 alias c='clear'
 
-# Clear bash history
-alias clear-history='history -c && history -w'
+# Delete bash history
+alias remove-history='rm ~/.bash_history'
