@@ -33,3 +33,10 @@ See [Install Ruby On Rails on macOS 10.14 Mojave](https://gorails.com/setup/osx/
 - Install node via Homebrew: `brew install node`
 - Install Jekyll: `gem install jekyll bundler`
 - Install JavaScript Standard Style: `npm install standard --global`
+
+## Acknowledgements
+
+Inspiration and code was taken from many sources, including:
+- [@mathiasbynens](https://github.com/mathiasbynens) (Mathias Bynens) [https://github.com/mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
+- [@mdo](https://github.com/mdo) (Mark Otto) [https://github.com/mdo/config](https://github.com/mdo/config)
+- [@pawelgrzybek](https://github.com/pawelgrzybek) (Pawel Grzybek) [https://github.com/pawelgrzybek/dotfiles](https://github.com/pawelgrzybek/dotfiles)
