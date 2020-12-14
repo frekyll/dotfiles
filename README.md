@@ -36,7 +36,9 @@ See [Install Ruby On Rails on macOS 10.14 Mojave](https://gorails.com/setup/osx/
 
 ## Acknowledgements
 
-Inspiration and code was taken from many sources, including:
+Motivation and code was taken from several sources, including:
 - [@mathiasbynens](https://github.com/mathiasbynens) (Mathias Bynens) [https://github.com/mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [@mdo](https://github.com/mdo) (Mark Otto) [https://github.com/mdo/config](https://github.com/mdo/config)
 - [@pawelgrzybek](https://github.com/pawelgrzybek) (Pawel Grzybek) [https://github.com/pawelgrzybek/dotfiles](https://github.com/pawelgrzybek/dotfiles)
+- [@yoshuawuyts](https://github.com/yoshuawuyts) (yoshuawuyts) [https://github.com/yoshuawuyts/dotfiles](https://github.com/yoshuawuyts/dotfiles)
+- [thoughtbot](https://github.com/thoughtbot) (thoughtbot, inc.) [https://github.com/thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles)
