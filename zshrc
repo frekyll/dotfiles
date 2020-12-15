@@ -31,5 +31,8 @@ alias c='clear'
 # Remove history file
 alias remove-history='rm ~/.zsh_history'
 
+# Start a Ruby server in the current directory
+alias serve='ruby -run -e httpd . -p 8000'
+
 # Erase current session history
 function erase_history { local HISTSIZE=0; }
