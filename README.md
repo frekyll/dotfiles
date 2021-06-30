@@ -34,8 +34,14 @@ See [Install Ruby On Rails on macOS 10.14 Mojave](https://gorails.com/setup/osx/
 - Install Jekyll: `gem install jekyll bundler`
 - Install JavaScript Standard Style: `npm install standard --global`
 
-## Acknowledgements
+## Download Third-Party Applications
+- [AppCleaner](https://freemacsoft.net/appcleaner/)
+- [Atom](https://atom.io)
+- [ImageAlpha](https://pngmini.com)
+- [ImageOptim](https://imageoptim.com/howto.html)
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org)
 
+## Acknowledgements
 Motivation and code was taken from several sources, including:
 - [@mathiasbynens](https://github.com/mathiasbynens) (Mathias Bynens) [https://github.com/mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [@mdo](https://github.com/mdo) (Mark Otto) [https://github.com/mdo/config](https://github.com/mdo/config)
